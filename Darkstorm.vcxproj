@@ -88,11 +88,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\Cade%27s stuff\Cheat sources\Sparkly Rewrite GUI\Aimbot.cpp" />
-    <ClCompile Include="..\..\..\Cade%27s stuff\Cheat sources\Sparkly Rewrite GUI\Controls.cpp" />
-    <ClCompile Include="..\..\..\Cade%27s stuff\Cheat sources\Sparkly Rewrite GUI\DrawUtils.cpp" />
-    <ClCompile Include="..\..\..\Cade%27s stuff\Cheat sources\Sparkly Rewrite GUI\Menu.cpp" />
-    <ClCompile Include="..\..\..\Cade%27s stuff\Cheat sources\Sparkly Rewrite GUI\Styles.cpp" />
+    <ClCompile Include="Aimbot.cpp" />
+    <ClCompile Include="Controls.cpp" />
+    <ClCompile Include="DrawUtils.cpp" />
+    <ClCompile Include="Menu.cpp" />
+    <ClCompile Include="Styles.cpp" />
     <ClCompile Include="CDrawManager.cpp" />
     <ClCompile Include="Client.cpp" />
     <ClCompile Include="DLLMain.cpp" />
@@ -102,15 +102,15 @@
     <ClCompile Include="VMTHooks.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\Cade%27s stuff\Cheat sources\Sparkly Rewrite GUI\Aimbot.h" />
-    <ClInclude Include="..\..\..\Cade%27s stuff\Cheat sources\Sparkly Rewrite GUI\Controls.h" />
-    <ClInclude Include="..\..\..\Cade%27s stuff\Cheat sources\Sparkly Rewrite GUI\Icons.h" />
-    <ClInclude Include="..\..\..\Cade%27s stuff\Cheat sources\Sparkly Rewrite GUI\KeyEnum.h" />
-    <ClInclude Include="..\..\..\Cade%27s stuff\Cheat sources\Sparkly Rewrite GUI\Menu.h" />
-    <ClInclude Include="..\..\..\Cade%27s stuff\Cheat sources\Sparkly Rewrite GUI\Styles.h" />
-    <ClInclude Include="..\..\..\Cade%27s stuff\Cheat sources\Sparkly Rewrite GUI\Vector2.h" />
+    <ClInclude Include=".Aimbot.h" />
+    <ClInclude Include=".Controls.h" />
+    <ClInclude Include=".Icons.h" />
+    <ClInclude Include=".KeyEnum.h" />
+    <ClInclude Include=".Menu.h" />
+    <ClInclude Include=".Styles.h" />
+    <ClInclude Include=".Vector2.h" />
     <ClInclude Include="DrawUtils.h" />
-    <ClInclude Include="..\..\..\Cade%27s stuff\Cheat sources\Sparkly Rewrite GUI\Color.h" />
+    <ClInclude Include=".Color.h" />
     <ClInclude Include="CDrawManager.h" />
     <ClInclude Include="CGlobalVars.h" />
     <ClInclude Include="Client.h" />
