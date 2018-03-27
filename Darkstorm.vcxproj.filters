@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="CDrawManager.cpp">
+      <Filter>Draw manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Cade%27s stuff\Cheat sources\Sparkly Rewrite GUI\DrawUtils.cpp">
+      <Filter>Draw manager</Filter>
+    </ClCompile>
+    <ClCompile Include="DLLMain.cpp" />
+    <ClCompile Include="Client.cpp">
+      <Filter>Hooks\Client</Filter>
+    </ClCompile>
+    <ClCompile Include="Panels.cpp">
+      <Filter>Hooks\Panels</Filter>
+    </ClCompile>
+    <ClCompile Include="VMTHooks.cpp">
+      <Filter>Darkstorm\VMT</Filter>
+    </ClCompile>
+    <ClCompile Include="Log.cpp">
+      <Filter>Darkstorm\Log</Filter>
+    </ClCompile>
+    <ClCompile Include="CSignature.cpp">
+      <Filter>Darkstorm\Signatures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Cade%27s stuff\Cheat sources\Sparkly Rewrite GUI\Controls.cpp">
+      <Filter>Sparkly UI\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Cade%27s stuff\Cheat sources\Sparkly Rewrite GUI\Styles.cpp">
+      <Filter>Sparkly UI\Styles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Cade%27s stuff\Cheat sources\Sparkly Rewrite GUI\Menu.cpp">
+      <Filter>Sparkly UI\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Cade%27s stuff\Cheat sources\Sparkly Rewrite GUI\Aimbot.cpp">
+      <Filter>Example cheat</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CDrawManager.h">
+      <Filter>Draw manager</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawUtils.h">
+      <Filter>Draw manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Cade%27s stuff\Cheat sources\Sparkly Rewrite GUI\Color.h">
+      <Filter>SDK\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Cade%27s stuff\Cheat sources\Sparkly Rewrite GUI\Vector2.h">
+      <Filter>SDK\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>Hooks\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Panels.h">
+      <Filter>Hooks\Panels</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>SDK\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="VMTHooks.h">
+      <Filter>Darkstorm\VMT</Filter>
+    </ClInclude>
+    <ClInclude Include="getvfunc.h">
+      <Filter>Darkstorm\VMT</Filter>
+    </ClInclude>
+    <ClInclude Include="Log.h">
+      <Filter>Darkstorm\Log</Filter>
+    </ClInclude>
+    <ClInclude Include="CSignature.h">
+      <Filter>Darkstorm\Signatures</Filter>
+    </ClInclude>
+    <ClInclude Include="CGlobalVars.h">
+      <Filter>Darkstorm\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponList.h">
+      <Filter>Darkstorm\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Cade%27s stuff\Cheat sources\Sparkly Rewrite GUI\Controls.h">
+      <Filter>Sparkly UI\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Cade%27s stuff\Cheat sources\Sparkly Rewrite GUI\KeyEnum.h">
+      <Filter>Sparkly UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Cade%27s stuff\Cheat sources\Sparkly Rewrite GUI\Menu.h">
+      <Filter>Sparkly UI\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Cade%27s stuff\Cheat sources\Sparkly Rewrite GUI\Styles.h">
+      <Filter>Sparkly UI\Styles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Cade%27s stuff\Cheat sources\Sparkly Rewrite GUI\Icons.h">
+      <Filter>Sparkly UI\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Cade%27s stuff\Cheat sources\Sparkly Rewrite GUI\Aimbot.h">
+      <Filter>Example cheat</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="SDK">
+      <UniqueIdentifier>{f6d51479-7281-485c-a4e3-9a29da082c19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Draw manager">
+      <UniqueIdentifier>{fc20898a-fdbc-4352-903e-126f229e596f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Headers">
+      <UniqueIdentifier>{442f6002-9298-4284-820b-3b3bc591e09f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sparkly UI">
+      <UniqueIdentifier>{3afea707-ecb5-43ea-9283-1c3c663ca7c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hooks">
+      <UniqueIdentifier>{1a22ca63-77be-4198-9e19-193e23698a46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hooks\Client">
+      <UniqueIdentifier>{9da45e8f-402a-47c4-b2f9-9bb783844c42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hooks\Panels">
+      <UniqueIdentifier>{3e69aac9-30d2-423b-ab73-fd409bcbd405}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Darkstorm">
+      <UniqueIdentifier>{fbe70aa7-27fa-4133-b86b-72c33116389b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Darkstorm\VMT">
+      <UniqueIdentifier>{18cadce0-1d40-41eb-b7e8-de5b852742fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Darkstorm\Log">
+      <UniqueIdentifier>{e9178ce2-3626-4915-8f46-93f5d411fb8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Darkstorm\Signatures">
+      <UniqueIdentifier>{b1e4fe8c-61e5-4163-aa1d-285c4edb2c8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Darkstorm\Game">
+      <UniqueIdentifier>{49970a9e-5ea0-49b6-96be-0a6d4e31f06d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sparkly UI\Controls">
+      <UniqueIdentifier>{eed07ca2-d19a-45fa-9a4f-ba9c00a9a498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sparkly UI\Menu">
+      <UniqueIdentifier>{439dab5e-b533-496e-b52c-7bf33ab0b78e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sparkly UI\Styles">
+      <UniqueIdentifier>{2c931c5f-d3c9-496a-8ea1-ac7934f4cfb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Example cheat">
+      <UniqueIdentifier>{a8ed32b8-48e9-41a4-833c-bf078d931a7c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
