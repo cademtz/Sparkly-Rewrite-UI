@@ -102,15 +102,15 @@
     <ClCompile Include="VMTHooks.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include=".Aimbot.h" />
-    <ClInclude Include=".Controls.h" />
-    <ClInclude Include=".Icons.h" />
-    <ClInclude Include=".KeyEnum.h" />
-    <ClInclude Include=".Menu.h" />
-    <ClInclude Include=".Styles.h" />
-    <ClInclude Include=".Vector2.h" />
+    <ClInclude Include="Aimbot.h" />
+    <ClInclude Include="Color.h" />
+    <ClInclude Include="Controls.h" />
+    <ClInclude Include="Icons.h" />
+    <ClInclude Include="KeyEnum.h" />
+    <ClInclude Include="Menu.h" />
+    <ClInclude Include="Styles.h" />
+    <ClInclude Include="Vector2.h" />
     <ClInclude Include="DrawUtils.h" />
-    <ClInclude Include=".Color.h" />
     <ClInclude Include="CDrawManager.h" />
     <ClInclude Include="CGlobalVars.h" />
     <ClInclude Include="Client.h" />

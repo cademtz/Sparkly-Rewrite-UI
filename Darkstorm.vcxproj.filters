@@ -4,9 +4,6 @@
     <ClCompile Include="CDrawManager.cpp">
       <Filter>Draw manager</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\Cade%27s stuff\Cheat sources\Sparkly Rewrite GUI\DrawUtils.cpp">
-      <Filter>Draw manager</Filter>
-    </ClCompile>
     <ClCompile Include="DLLMain.cpp" />
     <ClCompile Include="Client.cpp">
       <Filter>Hooks\Client</Filter>
@@ -23,17 +20,20 @@
     <ClCompile Include="CSignature.cpp">
       <Filter>Darkstorm\Signatures</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\Cade%27s stuff\Cheat sources\Sparkly Rewrite GUI\Controls.cpp">
-      <Filter>Sparkly UI\Controls</Filter>
+    <ClCompile Include="Aimbot.cpp">
+      <Filter>Example cheat</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\Cade%27s stuff\Cheat sources\Sparkly Rewrite GUI\Styles.cpp">
-      <Filter>Sparkly UI\Styles</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\Cade%27s stuff\Cheat sources\Sparkly Rewrite GUI\Menu.cpp">
+    <ClCompile Include="Menu.cpp">
       <Filter>Sparkly UI\Menu</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\Cade%27s stuff\Cheat sources\Sparkly Rewrite GUI\Aimbot.cpp">
-      <Filter>Example cheat</Filter>
+    <ClCompile Include="Styles.cpp">
+      <Filter>Sparkly UI\Styles</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls.cpp">
+      <Filter>Sparkly UI\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawUtils.cpp">
+      <Filter>Draw manager</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -42,12 +42,6 @@
     </ClInclude>
     <ClInclude Include="DrawUtils.h">
       <Filter>Draw manager</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\Cade%27s stuff\Cheat sources\Sparkly Rewrite GUI\Color.h">
-      <Filter>SDK\Headers</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\Cade%27s stuff\Cheat sources\Sparkly Rewrite GUI\Vector2.h">
-      <Filter>SDK\Headers</Filter>
     </ClInclude>
     <ClInclude Include="Client.h">
       <Filter>Hooks\Client</Filter>
@@ -79,23 +73,29 @@
     <ClInclude Include="WeaponList.h">
       <Filter>Darkstorm\Game</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\Cade%27s stuff\Cheat sources\Sparkly Rewrite GUI\Controls.h">
-      <Filter>Sparkly UI\Controls</Filter>
+    <ClInclude Include="Aimbot.h">
+      <Filter>Example cheat</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\Cade%27s stuff\Cheat sources\Sparkly Rewrite GUI\KeyEnum.h">
-      <Filter>Sparkly UI</Filter>
+    <ClInclude Include="Color.h">
+      <Filter>SDK\Headers</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\Cade%27s stuff\Cheat sources\Sparkly Rewrite GUI\Menu.h">
+    <ClInclude Include="Menu.h">
       <Filter>Sparkly UI\Menu</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\Cade%27s stuff\Cheat sources\Sparkly Rewrite GUI\Styles.h">
-      <Filter>Sparkly UI\Styles</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\Cade%27s stuff\Cheat sources\Sparkly Rewrite GUI\Icons.h">
+    <ClInclude Include="Controls.h">
       <Filter>Sparkly UI\Controls</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\Cade%27s stuff\Cheat sources\Sparkly Rewrite GUI\Aimbot.h">
-      <Filter>Example cheat</Filter>
+    <ClInclude Include="Icons.h">
+      <Filter>Sparkly UI\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyEnum.h">
+      <Filter>Sparkly UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Styles.h">
+      <Filter>Sparkly UI\Styles</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>SDK\Headers</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

@@ -11,12 +11,12 @@ CKey gKey;
 // - Feel free to use whatever default width you want
 #define GROUP_WIDTH 180
 
+#include "Aimbot.h" // Getting the aimbot controls from its header
 void Menu::CreateGUI()
 {
 	Tabs.AddTab(
 		new Tab("Controls", {
-			new Groupbox("Groupbox",
-			{
+			new Groupbox("Groupbox", {
 				new Checkbox("Checkbox"),
 				new Slider("Slider", 0, -10, 10, 1),
 				new Listbox("Listbox", {"This", "is", "a", "list", "box"}),
@@ -29,19 +29,17 @@ void Menu::CreateGUI()
 
 	Tabs.AddTab(
 		new Tab("Example", {
-			new Groupbox("Aimbot",
-			{
-				new Checkbox("Enabled"),
-				new KeyBind("Auto shoot", VK_SHIFT),
+			new Groupbox("Aimbot", {
+				&gAim.enabled,
+				&gAim.shoot,
 				new Space(5),
-				new Checkbox("Hitscan"),
-				new Listbox("Hitbox",{ "Head", "Body", "Auto" }),
+				&gAim.hitscan,
+				&gAim.hitbox,
 			}, GROUP_WIDTH),
-			new Groupbox("Aim method",
-			{
-				new Checkbox("Silent"),
-				new Checkbox("Backtrack"),
-				new Slider("Backtrack tick", 13, 0, 13, 1)
+			new Groupbox("Aim method", {
+				&gAim.silent,
+				&gAim.backtrack,
+				&gAim.tick
 			}, GROUP_WIDTH)
 		})
 	);
