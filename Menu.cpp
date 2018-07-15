@@ -47,7 +47,6 @@ void Menu::CreateGUI()
 
 #define TAB_WIDTH 150
 #define MENU_TOPBAR 30
-//#define MARGIN 4
 
 void Menu::Draw()
 {
@@ -79,7 +78,6 @@ void Menu::Draw()
 
 #pragma region Main window
 	// Menu outline
-	//gDraw.OutlineRect(pos.x - 2, pos.y - 2, _scale.x + 4, _scale.y + 4, Color(0));
 	gDraw.OutlineRect(pos.x - 1, pos.y - 1, _scale.x + 2, _scale.y + 2, Color(0));
 	int topbar = style->TopBar(_pos.x, _pos.y, _scale.x, "Main window");
 
@@ -87,10 +85,8 @@ void Menu::Draw()
 	_pos.y += topbar, _scale.y -= topbar;
 
 	// Tab region
-	gDraw.DrawRect(_pos.x, _pos.y, TAB_WIDTH, _scale.y, /*Color(25)*/ Color(15 + 7, 16 + 7, 17 + 7));
-	// Dividing line
+	gDraw.DrawRect(_pos.x, _pos.y, TAB_WIDTH, _scale.y, Color(22, 23, 24));
 	gDraw.DrawLine(_pos.x + TAB_WIDTH - 1, _pos.y, _pos.x + TAB_WIDTH - 1, _pos.y + _scale.y, Color(0));
-	//gDraw.DrawRect(_pos.x + TAB_WIDTH - 2, _pos.y, 2, _scale.y, Color(20));
 
 	Tabs.SetPos(_pos.x, _pos.y + topbar);
 	Tabs.SetWidth(TAB_WIDTH);
@@ -225,21 +221,6 @@ LRESULT __stdcall Hooked_WndProc(HWND hWnd, UINT uMsg, WPARAM wParam, LPARAM lPa
 		gMenu.keys[wParam] = false;
 		if (gMenu.last_key == wParam)
 			gMenu.last_key = NULL;
-
-		/*break;
-		case WM_LBUTTONDOWN:
-		if (wParam == MK_LBUTTON)
-		gMenu.key = (e_key)VK_LBUTTON;
-		break;
-		case WM_RBUTTONDOWN:
-		if (wParam == MK_RBUTTON)
-		{
-		gKey.key = (e_key)VK_RBUTTON;
-		break;
-		}
-		case WM_MBUTTONDOWN:
-		if (wParam == MK_MBUTTON)
-		gKey.key = (e_key)VK_MBUTTON;*/
 	}
 
 	return CallWindowProc(gMenu.windowProc, hWnd, uMsg, wParam, lParam);

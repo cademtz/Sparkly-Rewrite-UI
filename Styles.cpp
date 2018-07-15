@@ -42,7 +42,7 @@ void DefaultStyle::Dialog(int x, int y, int w, int h)
 int DefaultStyle::TopBar(int x, int y, int w, const char* title)
 {
 	// Dark topbar
-	gDraw.DrawRect(x, y, w, TOPBAR, Color(26 + 6, 28 + 6, 31 + 6));
+	gDraw.DrawRect(x, y, w, TOPBAR, Color(32, 34, 37));
 
 	if (title)
 		gDraw.DrawString(x + 10, y, Color(120), title, gFonts.segoe);
