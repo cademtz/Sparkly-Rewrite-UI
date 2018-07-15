@@ -10,7 +10,7 @@ void CFonts::Initialize()
 	arial = gInts.Surface->CreateFont();
 	verdana_bold = gInts.Surface->CreateFont();
 	verdana = gInts.Surface->CreateFont();
-	calibri = gInts.Surface->CreateFont();
+	segoe = gInts.Surface->CreateFont();
 	calibri_light = gInts.Surface->CreateFont();
 	calibri_light_small = gInts.Surface->CreateFont();
 	cambria = gInts.Surface->CreateFont();
@@ -21,7 +21,7 @@ void CFonts::Reload()
 	gInts.Surface->SetFontGlyphSet(gFonts.arial, "Arial", ESP_HEIGHT, 500, 0, 0, FONTFLAG_OUTLINE);
 	gInts.Surface->SetFontGlyphSet(gFonts.verdana_bold, "Verdana", 14, 800, 0, 0, FONTFLAG_ANTIALIAS);
 	gInts.Surface->SetFontGlyphSet(gFonts.verdana, "Verdana", 14, 0, 0, 0, FONTFLAG_ANTIALIAS);
-	gInts.Surface->SetFontGlyphSet(gFonts.calibri, "Calibri", 24, 500, 0, 0, FONTFLAG_ANTIALIAS);
+	gInts.Surface->SetFontGlyphSet(gFonts.segoe, "Segoe UI", 24, 250, 0, 0, FONTFLAG_ANTIALIAS);
 	gInts.Surface->SetFontGlyphSet(gFonts.calibri_light, "Calibri Light", 24, 250, 0, 0, FONTFLAG_ANTIALIAS);
 	gInts.Surface->SetFontGlyphSet(gFonts.calibri_light_small, "Calibri Light", 18, 250, 0, 0, FONTFLAG_ANTIALIAS);
 	gInts.Surface->SetFontGlyphSet(gFonts.cambria, "Cambria", 48, 1000, 0, 0, FONTFLAG_ANTIALIAS);

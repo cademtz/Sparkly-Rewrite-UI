@@ -78,15 +78,19 @@ void Menu::Draw()
 #pragma endregion
 
 #pragma region Main window
+	// Menu outline
+	//gDraw.OutlineRect(pos.x - 2, pos.y - 2, _scale.x + 4, _scale.y + 4, Color(0));
+	gDraw.OutlineRect(pos.x - 1, pos.y - 1, _scale.x + 2, _scale.y + 2, Color(0));
 	int topbar = style->TopBar(_pos.x, _pos.y, _scale.x, "Main window");
 
 	// Re-adjusting pos and scale for easy coding
 	_pos.y += topbar, _scale.y -= topbar;
 
 	// Tab region
-	gDraw.DrawRect(_pos.x, _pos.y, TAB_WIDTH, _scale.y, Color(25));
+	gDraw.DrawRect(_pos.x, _pos.y, TAB_WIDTH, _scale.y, /*Color(25)*/ Color(15 + 7, 16 + 7, 17 + 7));
 	// Dividing line
-	gDraw.DrawRect(_pos.x + TAB_WIDTH - 2, _pos.y, 2, _scale.y, Color(20));
+	gDraw.DrawLine(_pos.x + TAB_WIDTH - 1, _pos.y, _pos.x + TAB_WIDTH - 1, _pos.y + _scale.y, Color(0));
+	//gDraw.DrawRect(_pos.x + TAB_WIDTH - 2, _pos.y, 2, _scale.y, Color(20));
 
 	Tabs.SetPos(_pos.x, _pos.y + topbar);
 	Tabs.SetWidth(TAB_WIDTH);
@@ -95,6 +99,8 @@ void Menu::Draw()
 
 	// Control region
 	gDraw.DrawRect(_pos.x + TAB_WIDTH, _pos.y, _scale.x - TAB_WIDTH, _scale.y, Color(36, 36, 42));
+	// Dividing line
+	gDraw.DrawLine(_pos.x, _pos.y, _pos.x + _scale.x, _pos.y, Color(0));
 	// Re-adjusting pos and scale again
 	_pos.x += TAB_WIDTH + 3, _scale.x = scale.x - (_pos.x - pos.x);
 

@@ -116,7 +116,7 @@ int Tab::Draw(bool mouseOver)
 	Color clr = enabled ? LTEXT : BTEXT;
 
 	if (mouseOver)
-		gDraw.DrawRect(x, y, w, h, Color(20));
+		gDraw.DrawRect(x, y, w, h, Color(18));
 	gDraw.DrawString(x + 20, y + 2, clr, name, gFonts.calibri_light);
 
 	return h;

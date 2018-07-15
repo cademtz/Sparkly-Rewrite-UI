@@ -33,7 +33,7 @@ public:
 	HFont verdana;
 	HFont calibri_light;
 	HFont calibri_light_small;
-	HFont calibri;
+	HFont segoe;
 	HFont cambria;
 
 	HFont esp;

@@ -38,17 +38,14 @@ void DefaultStyle::Dialog(int x, int y, int w, int h)
 	gDraw.DrawRect(x + 1, y + 1, w - 2, h - 2, Color(36, 36, 40));
 }
 
-#define TOPBAR 30
+#define TOPBAR 25
 int DefaultStyle::TopBar(int x, int y, int w, const char* title)
 {
 	// Dark topbar
-	gDraw.DrawRect(x, y, w, TOPBAR, Color(20));
-	// Some small shading below the topbar
-	gDraw.DrawLine(x, y + TOPBAR - 1, x + w, y + TOPBAR - 1, Color(30));
-	gDraw.DrawLine(x, y + TOPBAR - 2, x + w, y + TOPBAR - 2, Color(0));
+	gDraw.DrawRect(x, y, w, TOPBAR, Color(26 + 6, 28 + 6, 31 + 6));
 
 	if (title)
-		gDraw.DrawString(x + 20, y + 2, Color(120), title, gFonts.calibri);
+		gDraw.DrawString(x + 10, y, Color(120), title, gFonts.segoe);
 
 	return TOPBAR;
 }
